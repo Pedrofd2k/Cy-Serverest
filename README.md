@@ -2,7 +2,7 @@
 
 **Serverest**
 
-*versão 2*
+*Versão 2.26.11*
 
 
 ## 1 - Introdução
@@ -65,7 +65,7 @@ Identificador do caso de uso | Nome do caso de uso
 | Canva                | Para criação do mapa mental                             |
 
 
-## 4 - Cronograma
+### 4 - Cronograma
 | Dia da Semana | Atividade 1                     | Atividade 2                     |
 |---------------|-------------------------------|-------------------------------|
 | Segunda-feira | Finalizar planejamento de testes       |                               |
@@ -73,3 +73,30 @@ Identificador do caso de uso | Nome do caso de uso
 | Quarta-feira  | Iniciar testes e relatório manual       | Iniciar desenvolvimento da automação       |
 | Quinta-feira  | Iniciar desenvolvimento da automação       | Começar a gerar relatórios       |
 | Sexta-feira   | Começar a gerar relatórios       |     Finalizar os relatorios                          |
+
+### 5 - Como rodar e gerar relatórios
+Para rodar o cypress e gerar os relatórios, você deve:
+ - clonar o repositório
+    ```
+    git clone https://github.com/Pedrofd2k/Cy-Serverest.git
+    ```
+ - Instalar as dependências
+    ```
+    npm install
+    ```
+ - Para rodar a interface visual
+    ```
+    npm run cy
+    ```
+ - Para rodar os testes
+    ```
+    npm run cy:run
+    ```
+ - Para gerar relatórios json
+    ```
+    npm run cy:json
+    ```
+ - Para gerar relatório html
+    ```
+    npm run cy:html
+    ```
